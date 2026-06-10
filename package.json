@@ -1,0 +1,30 @@
+{
+	"name": "pnpm-vite-vue-ts-starter",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc -b && vite build",
+		"preview": "vite preview",
+		"lint": "oxlint --fix",
+		"typecheck": "vue-tsc --noEmit",
+		"fmt": "oxfmt --write .",
+		"format": "pnpm typecheck && pnpm lint && pnpm fmt"
+	},
+	"dependencies": {
+		"vue": "^3.5.35"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.3.0",
+		"@types/node": "^25.9.2",
+		"@vitejs/plugin-vue": "^6.0.7",
+		"@vue/tsconfig": "^0.9.1",
+		"oxfmt": "^0.54.0",
+		"oxlint": "^1.69.0",
+		"tailwindcss": "^4.3.0",
+		"typescript": "~6.0.3",
+		"vite": "^8.0.16",
+		"vue-tsc": "^3.3.4"
+	}
+}
