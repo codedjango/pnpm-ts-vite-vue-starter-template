@@ -55,3 +55,4 @@ minimumReleaseAgeExclude:
   - '@oxlint/binding-win32-x64-msvc@1.70.0'
   - oxfmt@0.55.0
   - oxlint@1.70.0
+  - vite@8.1.0
