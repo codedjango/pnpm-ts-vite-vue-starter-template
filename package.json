@@ -13,18 +13,18 @@
 		"format": "pnpm typecheck && pnpm lint && pnpm fmt"
 	},
 	"dependencies": {
-		"vue": "^3.5.39"
+		"vue": "^3.5.40"
 	},
 	"devDependencies": {
-		"@tailwindcss/vite": "^4.3.2",
+		"@tailwindcss/vite": "^4.3.3",
 		"@types/node": "^26.1.1",
-		"@vitejs/plugin-vue": "^6.0.7",
+		"@vitejs/plugin-vue": "^6.0.8",
 		"@vue/tsconfig": "^0.9.1",
-		"oxfmt": "^0.58.0",
-		"oxlint": "^1.73.0",
-		"tailwindcss": "^4.3.2",
+		"oxfmt": "^0.59.0",
+		"oxlint": "^1.74.0",
+		"tailwindcss": "^4.3.3",
 		"typescript": "~6.0.3",
-		"vite": "^8.1.4",
+		"vite": "^8.1.5",
 		"vite-plugin-vue-devtools": "^8.1.5",
 		"vue-tsc": "^3.3.7"
 	}
